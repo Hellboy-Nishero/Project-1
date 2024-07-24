@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+header {
+  max-width: 1512px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #1ABC9C;
+  padding: 15px 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .icon img {
+  width: 100px;
+  height: 30px;
+}
+header nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 10px;
+}
+header nav a:last-child {
+  margin: 0 10px 0 0;
+}
+header nav a:first-child {
+  margin: 0 0 0 10px;
+}
+header .soc a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  max-width: 1512px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+main .about_us {
+  padding: 0 70px 0 62px;
+}
+main .about_us h2 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 23px;
+}
+main .about_us p {
+  font-size: 20px;
+  text-align: justify;
+}
+main .main_office img {
+  display: block;
+}
+
+section {
+  max-width: 1512px;
+  background-color: #DCFFEB;
+  margin: 0 auto;
+  padding: 124px 65px;
+}
+section .projects {
+  padding: 124px 65px 124px 64px;
+}
+section .projects .projects_heading {
+  font-weight: 400;
+  margin-bottom: 50.09px;
+  font-size: 35px;
+}
+section .cards {
+  display: flex;
+  flex-direction: row;
+  gap: 37.38px;
+}
+section .cards .card {
+  background-image: url(/media/card.png);
+  width: 436.08px;
+  height: 378.91px;
+  color: #fff;
+  position: relative;
+}
+section .cards .card .hover_item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+section .cards .card .hover_item h3 {
+  font-weight: 500;
+  font-family: oswald;
+  margin: 207.91px 252px 16px 36px;
+}
+section .cards .card .hover_item p {
+  margin: 0 36px;
+  font-family: open sans;
+}
+section .cards .card .hover_item:hover {
+  opacity: 1;
+}
+
+footer {
+  max-width: 1512px;
+  margin: 0 auto;
+  padding: 84px 69px 76px;
+}
+footer .contact_section .section_heading {
+  text-align: left;
+  font-size: 35px;
+  margin-bottom: 55px;
+  font-weight: 400;
+}
+footer .contact_section .contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 37.14px;
+}
+footer .contact_section .contacts .contact_item {
+  width: 315.65px;
+  height: 191px;
+  text-align: center;
+}
+footer .contact_section .contacts .contact_item img {
+  display: block;
+  margin: 0 auto 36px auto;
+}
+footer .contact_section .contacts .contact_item h3 {
+  color: #999999;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+footer .contact_section .contacts .contact_item p {
+  font-size: 24px;
+  font-family: oswald;
+  font-weight: 500;
+}
+footer .contact_section .contacts .contact_item a {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: oswald;
+  font-weight: 500;
+}
+footer .contact_section .contacts .contact_item #orange {
+  color: #F7654A;
+}/*# sourceMappingURL=style.css.map */
